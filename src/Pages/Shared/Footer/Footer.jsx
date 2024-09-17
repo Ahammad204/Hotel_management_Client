@@ -3,22 +3,30 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="flex  mt-14 text-neutral-content ">
-        <div className="bg-[#1F2937]  w-[50%] flex items-center flex-col pt-24 pr-56 pl-56 pb-12 text-center">
+      <footer className="flex md:flex-row flex-col  mt-14 text-neutral-content ">
+        <div
+          className="bg-[#1F2937] w-full  md:w-[50%] flex items-center flex-col 
+        pt-10 md:pt-24 pr-10 md:pr-56 pl-10 md:pl-56 pb-10 md:pb-12 text-center"
+        >
           <h1 className="mb-6 text-3xl">Contact Us</h1>
           <p className="text-sm mb-3">123 ABS Street, Uni 21, Bangladesh</p>
           <p className="text-sm mb-3">+88 123456789</p>
           <p className="text-sm mb-3">Mon - Fri: 08:00 - 22:00</p>
           <p className="text-sm mb-3">Sat - Sun: 10:00 - 23:00</p>
-         
         </div>
-        <div className="bg-[#111827]  w-[50%] flex items-center flex-col pt-24 pr-56 pl-56 pb-12 text-center">
-
-        <h1 className="mb-6 text-3xl">Follow Us</h1>
-        <h1 className="mb-6 text-sm">Join us on social media</h1>
+        <div
+          className="bg-[#111827] w-full  md:w-[50%] flex items-center flex-col 
+        pt-10 md:pt-24 pr-10 md:pr-56 pl-10 md:pl-56 pb-10 md:pb-12 text-center"
+        >
+          <h1 className="mb-6 text-3xl">Follow Us</h1>
+          <h1 className="mb-6 text-sm">Join us on social media</h1>
           <h6 className="footer-title">Social</h6>
           <div className="grid grid-flow-col gap-4">
-            <a className="cursor-pointer " href="https://www.facebook.com/kaziahammad.ullah/" target="_blank">
+            <a
+              className="cursor-pointer "
+              href="https://www.facebook.com/kaziahammad.ullah/"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -57,7 +65,8 @@ const Footer = () => {
       <div className="footer footer-center bg-black text-white p-4">
         <aside>
           <p>
-            Copyright © {new Date().getFullYear()} - All right reserved by Kazi Ahammad Ullah
+            Copyright © {new Date().getFullYear()} - All right reserved by Kazi
+            Ahammad Ullah
           </p>
         </aside>
       </div>

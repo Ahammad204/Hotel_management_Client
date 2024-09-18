@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../Banner/Banner'
 import Category from '../Category/Category'
 import SectionBanner from '../../Shared/SectionBanner/SectionBanner'
+import PopularMenu from '../PopularMenu/PopularMenu'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Banner></Banner>
       <Category></Category>
       <SectionBanner></SectionBanner>
+      <PopularMenu></PopularMenu>
     </div>
   )
 }

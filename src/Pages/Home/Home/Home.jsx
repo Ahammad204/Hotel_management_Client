@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner'
 import Category from '../Category/Category'
 import SectionBanner from '../../Shared/SectionBanner/SectionBanner'
 import PopularMenu from '../PopularMenu/PopularMenu'
+import ChefRecommend from '../ChefRecommend/ChefRecommend'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Category></Category>
       <SectionBanner></SectionBanner>
       <PopularMenu></PopularMenu>
+      <ChefRecommend></ChefRecommend>
     </div>
   )
 }
